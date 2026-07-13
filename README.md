@@ -15,9 +15,9 @@ O sistema é composto pelos seguintes módulos em Python:
   - `config.py`: Centraliza a leitura das chaves de API, baselines de saúde (HRV/Sono) e configurações globais a partir do arquivo de variáveis de ambiente.
   - `intervals_client.py`: Cliente de API unificado para comunicação com a plataforma Intervals.icu.
   - `utils.py`: Funções utilitárias para análise nutricional de treinos, cálculo de status de fadiga (TSB) e disparo de notificações via ntfy.sh.
-  - `pms_daily_report.py`: Script para o **Relatório Matinal** (Saúde do dia + Carga acumulada + Detalhe dos treinos prescritos + Análise de hidratação/nutrição).
-  - `pms_nightly_report.py`: Script para o **Relatório Noturno** (Fechamento do dia + Execução real vs. Planejado + Análise de overtraining/fadiga).
-  - `pms_weekly_planner.py`: Script para o **Planejador Semanal** dinâmico via Gemini IA, integrando o histórico fisiológico real e cálculo preditivo de carga.
+  - `daily_report.py`: Script para o **Relatório Matinal** (Saúde do dia + Carga acumulada + Detalhe dos treinos prescritos + Análise de hidratação/nutrição).
+  - `nightly_report.py`: Script para o **Relatório Noturno** (Fechamento do dia + Execução real vs. Planejado + Análise de overtraining/fadiga).
+  - `weekly_planner.py`: Script para o **Planejador Semanal** dinâmico via Gemini IA, integrando o histórico fisiológico real e cálculo preditivo de carga.
 - `INSTRUCOES_TREINO_TEMPLATE.md`: O arquivo de referência que serve como "cérebro" fisiológico para a IA, contendo o catálogo de sessões estruturadas, zonas de pace/frequência cardíaca e regras de periodização.
 - `MODELO_REVISAO_SEMANAL_TEMPLATE.md`: Modelo utilizado para o log semanal de desempenho.
 - `test_weekly_planner.py`: Suite de simulação local do planejador semanal (gera a proposta da IA e simula comutações, enviando apenas notificações de teste sem alterar os treinos no Intervals.icu).
@@ -90,15 +90,15 @@ Você pode rodar os scripts localmente para validar a configuração:
     ```
 2.  **Enviar Relatório Matinal:**
     ```bash
-    python -m health_tracker.pms_daily_report
+    python -m health_tracker.daily_report
     ```
 3.  **Enviar Relatório Noturno:**
     ```bash
-    python -m health_tracker.pms_nightly_report
+    python -m health_tracker.nightly_report
     ```
 4.  **Executar Planejador Semanal em Produção (Cria os treinos no Intervals.icu):**
     ```bash
-    python -m health_tracker.pms_weekly_planner
+    python -m health_tracker.weekly_planner
     ```
 5.  **Gerar Relatório de Carga Consolidado:**
     ```bash

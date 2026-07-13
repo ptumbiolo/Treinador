@@ -10,7 +10,7 @@ sys.path.append(os.getcwd())
 
 from health_tracker.intervals_client import IntervalsClient
 from health_tracker.config import GEMINI_API_KEY, INSTRUCTIONS_PATH, BASELINE_HRV_MIN, BASELINE_HRV_MAX
-from health_tracker.pms_weekly_planner import calculate_last_week_stats, get_ai_proposed_workouts
+from health_tracker.weekly_planner import calculate_last_week_stats, get_ai_proposed_workouts
 from health_tracker.utils import send_ntfy_notification
 
 # Configuração Gemini
@@ -22,7 +22,7 @@ def test_weekly_planner_no_upload():
     
     # 1. Calcular estatísticas das últimas 3 semanas
     print("📊 Calculando estatísticas das últimas 3 semanas...")
-    from health_tracker.pms_weekly_planner import calculate_week_stats
+    from health_tracker.weekly_planner import calculate_week_stats
     stats0, hrv0, sleep0, tsb0, start0, end0 = calculate_week_stats(client, weeks_ago=0)
     stats1, hrv1, sleep1, tsb1, start1, end1 = calculate_week_stats(client, weeks_ago=1)
     stats2, hrv2, sleep2, tsb2, start2, end2 = calculate_week_stats(client, weeks_ago=2)
@@ -33,7 +33,7 @@ def test_weekly_planner_no_upload():
         {"start": start0, "end": end0, "load": stats0["Total"]["load"], "hrv": hrv0, "sleep": sleep0, "tsb": tsb0}
     ]
     
-    from health_tracker.pms_weekly_planner import get_starting_ctl_atl, calculate_target_weekly_load, calculate_30d_hrv_baseline
+    from health_tracker.weekly_planner import get_starting_ctl_atl, calculate_target_weekly_load, calculate_30d_hrv_baseline
     ctl_0, atl_0 = get_starting_ctl_atl(client)
     target_load = None
     if ctl_0 > 0.0 or atl_0 > 0.0:

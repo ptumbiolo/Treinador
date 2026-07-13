@@ -1,0 +1,29 @@
+name: Relatório Diário de Saúde e Treino
+on:
+  schedule:
+    - cron: '30 9 * * *' # 06:30 BRT (Ajustado para compensar atraso do GitHub)
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests python-dotenv
+      - name: Run Script
+        env:
+          INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
+          INTERVALS_ATHLETE_ID: ${{ secrets.INTERVALS_ATHLETE_ID }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          ATHLETE_NAME: ${{ secrets.ATHLETE_NAME }}
+          BASELINE_HRV: ${{ secrets.BASELINE_HRV }}
+          BASELINE_HRV_MIN: ${{ secrets.BASELINE_HRV_MIN }}
+          BASELINE_HRV_MAX: ${{ secrets.BASELINE_HRV_MAX }}
+          GOAL_SLEEP: ${{ secrets.GOAL_SLEEP }}
+          TIMEZONE: ${{ secrets.TIMEZONE }}
+        run: python -m health_tracker.daily_report
