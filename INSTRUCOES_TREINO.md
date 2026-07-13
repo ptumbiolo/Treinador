@@ -1,24 +1,27 @@
 # Protocolo de Gestão Dinâmica de Treino - Intervals.icu
 
 ## Objetivos da Fase Atual
-1. **Corrida:** Consolidar base aeróbica em ritmo confortável (Z2/Z3: 7:36-8:58 min/km). Meta de longo prazo: 10km sub-60min.
-2. **Triathlon:** Realizar um simulado de Sprint Triathlon (750m Sw / 20km Bike / 5km Run).
-3. **Ciclismo:** Preparação para travessia Ubatuba -> Paraty (Foco em resistência de longa duração e altimetria).
-4. **Marcos:** Teste de 3km realizado em **03/06/2026** (Resultado: 6:21 min/km). Zonas atualizadas.
+1. **[Foco principal da modalidade, ex: Corrida]:** [Descreva seus objetivos, ex: Consolidar base aeróbica em ritmo confortável]. Meta de longo prazo: [ex: 10km sub-60min].
+2. **[Foco secundário ou multiesporte]:** [Descreva, ex: Realizar um simulado de Sprint Triathlon].
+3. **[Foco de volume/resistência]:** [Descreva seu objetivo de resistência ou altimetria].
+4. **Marcos:** Teste de [Distância/Tipo] realizado em **[DATA_DO_TESTE]** (Resultado: [Resultado, ex: Pace de 6:20 min/km]). Zonas atualizadas.
 
-Este documento estabelece as regras de análise e distribuição de carga para o atleta i127783.
+Este documento estabelece as regras de análise e distribuição de carga para o atleta **[SEU_ID_ATHLETE_AQUI (ex: i12345)]**.
+
+---
 
 ## 1. Rotina Base Semanal (Template)
-- **Segunda-feira:** Corrida (Rodagem Z2) + Musculação (Peito, Bíceps, Core).
-- **Terça-feira:** Natação (Estímulos: Pirâmides, Tiros, Pace) + Ciclismo (Z1/Z2).
-- **Quarta-feira:** Corrida (Estímulos: Tiros, Fartlek, Subida, Foco Z3/Z4) + Musculação (Costas, Tríceps, Core).
-- **Quinta-feira:** Natação (Volume/Rodagem: Palmar, PB) + Ciclismo (Rodagem ~1h).
-- **Sexta-feira:** Corrida Leve + Musculação (Pernas).
-- **Sábado:** Corrida (Longão isolado).
-- **Domingo:** Ciclismo (Longão) E/OU Treinos de Transição (Brick - Bike -> Run).
+- **Segunda-feira:** Corrida (Rodagem Z2) + Musculação ([Grupamento_1]).
+- **Terça-feira:** Natação (Estímulos: Tiros, Técnica) + Ciclismo (Z1/Z2).
+- **Quarta-feira:** Corrida (Estímulos: Tiros, Ladeiras ou Fartlek) + Musculação ([Grupamento_2]).
+- **Quinta-feira:** Natação (Volume/Técnica) + Ciclismo (Rodagem).
+- **Sexta-feira:** Corrida Leve + Musculação ([Grupamento_3]).
+- **Sábado:** Corrida (Longão isolado) ou Descanso.
+- **Domingo:** Ciclismo (Longão) E/OU Treinos de Transição (Brick).
 
-**Atenção Estratégica (Fase Atual):**
-Neste primeiro momento, o foco primordial é o desenvolvimento de **modalidades isoladas**. Treinos combinados (Brick) devem ser agendados **exclusivamente aos domingos**, nunca aos sábados. Evite o excesso de treinos de transição até que a base aeróbica isolada esteja consolidada.
+*Nota: Personalize os dias acima de acordo com sua disponibilidade real.*
+
+---
 
 ## 2. Parâmetros de Ajuste Bio-Fisiológico (Wellness)
 Sempre realizar a leitura dos dados de "Wellness" antes de confirmar o treino do dia:
@@ -26,21 +29,21 @@ Sempre realizar a leitura dos dados de "Wellness" antes de confirmar o treino do
   - Abaixo da média (Baseline): Reduzir intensidade (mudar estímulo para rodagem Z2).
   - Significativamente abaixo (>1 desvio padrão): Converter para Descanso Ativo ou OFF.
 - **Sono:**
-  - < 7 horas ou Qualidade Baixa: Reduzir volume em 20%.
-  - < 6 horas: Cancelar treino de alta intensidade (Intervalados).
+  - < 7 horas ou Qualidade Baixa: Reduzir volume do treino em 20%.
+  - < 6 horas: Cancelar treinos de alta intensidade (Intervalados), substituindo por rodagem leve ou descanso.
 - **Prontidão (Readiness):** Seguir a recomendação do Intervals.icu para ajuste de carga.
+
+---
 
 ## 3. Gestão de Carga e Execução (Load & Execution)
 - **Prescrição de Intensidade:** 
   - **Corrida e Natação:** Devem ser definidos por **PACE (min/km ou min/100m)**.
-  - **Ciclismo:** Deve ser definido exclusivamente por **FREQUÊNCIA CARDÍACA (bpm)**.
-- **Tabela de Referência Atual (Junho/2026):**
-  - **Corrida:** Z1 (>9:00), Z2 (8:00-9:00), Z3 (7:15-8:00), Z4 (6:40-7:15), Z5 (<6:40).
-  - **Natação (100m):** Z1 (>2:09), Z2 (1:59-2:09), Z3 (1:55-1:59), Z4 (1:51-1:55), Z5 (<1:51).
-  - **Ciclismo (bpm):** Z1 (<135), Z2 (135-150), Z3 (151-160), Z4 (161-167), Z5 (>167).
-- **Ajustes de Recondicionamento (Corrida):** O pace médio da corrida evoluiu de ~9:05/km em janeiro de 2026 para ~8:08/km em junho de 2026. A IA deve usar ritmos reais confortáveis para rodagem em Z2 (8:15-8:45 min/km). Séries de intensidade em Z4 devem ter descanso amplo para acomodar a fase atual de retorno de condicionamento.
-- **Eficiência na Natação:** A natação possui média sólida de ~2:00/100m. Séries aeróbicas devem focar em Z2 (2:00-2:09/100m) e séries intervaladas em Z3/Z4 (1:51-1:59/100m).
-- **Formato das Planilhas:** Os treinos devem ser descritos de forma **PRESCRITIVA e ESPECÍFICA**. Não utilizar termos como "sugestão" ou "pode fazer". O plano deve conter:
+  - **Ciclismo:** Deve ser definido exclusivamente por **FREQUÊNCIA CARDÍACA (bpm)** ou **POTÊNCIA (watts)**.
+- **Tabela de Referência de Zonas (Substitua pelos seus valores reais):**
+  - **Corrida:** Z1 (>[Pace_Z1]), Z2 ([Pace_Z2_Min]-[Pace_Z2_Max]), Z3 ([Pace_Z3_Min]-[Pace_Z3_Max]), Z4 ([Pace_Z4_Min]-[Pace_Z4_Max]), Z5 (<[Pace_Z5]).
+  - **Natação (100m):** Z1 (>[Pace_N_Z1]), Z2 ([Pace_N_Z2_Min]-[Pace_N_Z2_Max]), Z3 ([Pace_N_Z3_Min]-[Pace_N_Z3_Max]), Z4 ([Pace_N_Z4_Min]-[Pace_N_Z4_Max]), Z5 (<[Pace_N_Z5]).
+  - **Ciclismo (bpm):** Z1 (<[HR_Z1]), Z2 ([HR_Z2_Min]-[HR_Z2_Max]), Z3 ([HR_Z3_Min]-[HR_Z3_Max]), Z4 ([HR_Z4_Min]-[HR_Z4_Max]), Z5 (>[HR_Z5]).
+- **Formato das Planilhas:** Os treinos gerados pela IA devem ser descritos de forma **PRESCRITIVA e ESPECÍFICA**. Não utilizar termos vagos. O plano deve conter:
   - Tempo total e Volume estimado.
   - Intensidade exata (Pace ou BPM) para cada etapa baseado nas zonas acima.
   - Etapas detalhadas (Aquecimento, Principal, Desaquecimento).
@@ -48,37 +51,41 @@ Sempre realizar a leitura dos dados de "Wellness" antes de confirmar o treino do
 - **Form (TSB):**
   - Manter entre -10 e -30 para evolução (Optimal Training).
   - Se TSB < -40 (Overreaching): Substituir o próximo treino de estímulo por rodagem leve.
-- **Equilíbrio Volume vs. Velocidade:**
-  - Garantir que treinos de estímulo (Ter/Qua) não sejam sacrificados por excesso de volume nos dias de rodagem.
+
+---
 
 ## 4. Protocolo de Suplementação Intra-treino
-- **Eletrolitos:** Obrigatório para todos os treinos acima de 60 minutos ou realizados em condições de calor elevado.
-- **Carboidratos (Gel/Palatinose):**
-  - **Treinos < 60 min:** Geralmente desnecessário (apenas água/eletrolitos).
-  - **Treinos de Estímulo/Intensidade (Ter/Qua):** 1 Gel 15 min antes do bloco principal para garantir glicogênio para a alta intensidade.
-  - **Treinos Longos (> 90 min):** 1 Gel a cada 45 minutos de atividade.
-- **Hidratação:** Consumo constante de 500ml a 750ml de água por hora, ajustado conforme a taxa de sudorese.
+- **Eletrolitos:** Recomendado para todos os treinos acima de 60 minutos ou realizados em dias de calor elevado.
+- **Carboidratos (Gel / Palatinose / Isotônico):**
+  - **Treinos < 60 min:** Geralmente apenas água/eletrolitos.
+  - **Treinos de Estímulo/Intensidade:** 1 Gel (ou ~30g CHO) 15 minutos antes do bloco principal para garantir energia.
+  - **Treinos Longos (> 90 min):** 30g a 60g de carboidratos por hora de atividade.
+- **Hidratação:** Consumo constante de 500ml a 750ml de água por hora, ajustado conforme a taxa de sudorese do atleta.
 
-## 5. Diretrizes de Volume e Carga Semanal (Baseadas no Histórico 2026)
-- **Faixa de Carga Semanal Alvo:** Manter na zona de evolução conforme o TSB preditivo.
-- **Gestão de Carga Semanal:** Não adotar tetos fixos arbitrários (como 450 TL). A carga semanal deve evoluir de forma progressiva para manter o TSB na zona de evolução (-10 a -30), evitando quedas de TSB abaixo de -40 (Overreaching/Lesão). Conforme o Fitness (CTL) do atleta aumenta, as cargas semanais devem progredir proporcionalmente para manter o estímulo de adaptação aeróbica de médio/longo prazo.
-- **Distribuição Típica de Carga:**
-  - **Corrida:** 120 - 180 TL (3 sessões).
-  - **Ciclismo:** 80 - 150 TL (2 sessões, incluindo o longão de endurance).
-  - **Natação:** 40 - 60 TL (2 sessões).
-  - **Força:** 15 - 30 TL (3 sessões curtas).
-- **Periodização e Recuperação:** A cada 3 ou 4 semanas de carga progressiva acumulada, prescrever obrigatoriamente 1 semana de recuperação ativa (redução de 30-40% no volume, carga alvo de **150 a 200 TL**) para regeneração e consolidação fisiológica.
+---
+
+## 5. Diretrizes de Volume e Carga Semanal
+- **Faixa de Carga Semanal Alvo:** Manter na zona de evolução conforme o TSB preditivo calculado pelo sistema.
+- **Gestão de Carga Semanal:** Não adotar tetos fixos arbitrários. A carga semanal deve evoluir de forma progressiva para manter o TSB na zona de evolução (-10 a -30), evitando quedas de TSB abaixo de -40 (Overreaching/Lesão).
+- **Distribuição Típica de Carga por Modalidade:**
+  - **Corrida:** [Faixa de Load, ex: 120 - 180] TL (X sessões).
+  - **Ciclismo:** [Faixa de Load, ex: 80 - 150] TL (Y sessões).
+  - **Natação:** [Faixa de Load, ex: 40 - 60] TL (Z sessões).
+  - **Força:** [Faixa de Load, ex: 15 - 30] TL (W sessões).
+- **Periodização e Recuperação:** A cada 3 ou 4 semanas de carga progressiva acumulada, prescrever obrigatoriamente 1 semana de recuperação ativa (redução de 30-40% no volume e intensidade) para regeneração e consolidação fisiológica.
+
+---
 
 ## 6. Biblioteca Oficial de Sessões Fisiológicas (Catalog)
 
-Todos os treinos sugeridos pela IA devem seguir obrigatoriamente um dos blocos estruturais abaixo, respeitando as regras de intensidade (Corrida/Natação por PACE e Ciclismo por Frequência Cardíaca/HR).
+Todos os treinos sugeridos pela IA devem seguir obrigatoriamente um dos blocos estruturais abaixo.
 
 ### 🏊‍♂️ NATAÇÃO (Zonas por Pace - Mínimo de 1.5km)
 1. **Volume Mínimo:** NENHUM treino de natação deve ter volume total inferior a **1.5km (1500m)**.
 2. **Bloco de Educativo:** Todo treino de natação deve conter um bloco específico de técnica/educativo de **0.2km a 0.3km** após o aquecimento.
 3. **Sintaxe:** Use `km` e adicione o indicativo de drills nos parênteses. (Ex: `- 0.2km Z1 pace (educativo: perna/braçada)`).
 
-*   **[Sessão N-Estímulo] Técnica e Velocidade (Mínimo: 1.5km):**
+*   **[Sessão N-Estímulo] Técnica e Velocidade:**
     ```text
     CHO/h 0g
     - 0.2km Z1 pace (Aquecimento)
@@ -89,7 +96,7 @@ Todos os treinos sugeridos pela IA devem seguir obrigatoriamente um dos blocos e
     - 0.2km Z2 pace
     - 0.1km Z1 pace (Soltura)
     ```
-*   **[Sessão N-Volume] Resistência Aeróbica PB+Palmar (Mínimo: 1.5km):**
+*   **[Sessão N-Volume] Resistência Aeróbica PB+Palmar:**
     ```text
     CHO/h 0g
     - 0.3km Z1 pace (Aquecimento)
@@ -99,7 +106,7 @@ Todos os treinos sugeridos pela IA devem seguir obrigatoriamente um dos blocos e
     - {tempo_descanso}m rest
     - 0.2km Z1 pace (Soltura)
     ```
-*   **[Sessão N-Recup] Natação Regenerativa Ativa (Fixo: 1.5km):**
+*   **[Sessão N-Recup] Natação Regenerativa Ativa:**
     ```text
     CHO/h 0g
     - 0.2km Z1 pace (Aquecimento)
@@ -169,10 +176,10 @@ Todos os treinos sugeridos pela IA devem seguir obrigatoriamente um dos blocos e
 ## 7. Regras de Tomada de Decisão para a IA (Periodização)
 
 A IA deve selecionar os treinos da biblioteca de acordo com as seguintes condições de fadiga e recuperação:
-1. **Semana de Choque/Evolução (TSB -10 a -30 e HRV Alto ≥ 75 ms):** Permitir `[Sessão R-VO2]`, `[Sessão R-Subidas]`, `[Sessão C-SubLimiar]` e longões progressivos.
-2. **Semana de Consolidação (Primeira semana de carga alta / HRV Saudável entre 55 ms e 75 ms ou superior):** Manter volume alto, mas substituir VO2 por `[Sessão R-Limiar]` ou `[Sessão R-Subidas]` (focando em ritmo) e preferir longões aeróbicos puros de resistência (`[Sessão C-Endurance]`).
-3. **Semana de Recuperação Ativa (HRV Baixo < 55 ms ou TSB < -40 ou após 3-4 semanas de carga progressiva acumulada):** Prescrever exclusivamente rodagens regenerativas de volume reduzido em Z1/Z2 (sem blocos intervalados `{repeticoes}x`).
-4. **Preparação Específica para Prova (16/08/2026):** Nas 4 semanas que antecedem a prova (de 13/07 a 09/08), prescrever alternadamente `[Sessão R-Subidas]` nas quartas-feiras ou sextas-feiras para treinar a força específica exigida pelas ladeiras da prova (Av. Rubem Berta / 23 de Maio). Recomendar que os longões de sábado sejam realizados em terrenos ondulados (com altimetria acumulada similar a 10m-15m/km).
+1. **Semana de Evolução (TSB -10 a -30 e HRV Alto/Saudável):** Permitir treinos intervalados de alta intensidade (`[Sessão R-VO2]`, `[Sessão R-Subidas]`, `[Sessão C-SubLimiar]`) e longões progressivos.
+2. **Semana de Consolidação (Primeira semana de carga mais alta com HRV estável):** Manter volume total planejado, mas substituir estímulos excessivos de VO2 por estímulos de limiar/força (`[Sessão R-Limiar]`) e preferir longões aeróbicos de resistência pura (`[Sessão C-Endurance]`).
+3. **Semana de Recuperação Ativa (HRV classificado como "ABAIXO", TSB < -40 ou após 3-4 semanas acumuladas de carga progressiva):** Prescrever exclusivamente rodagens regenerativas de volume reduzido em Z1/Z2 (sem blocos intervalados `{repeticoes}x`).
+4. **Preparação Específica para Prova (Fase de Polimento / Tapering):** Nas semanas anteriores ao evento alvo, ajustar a biblioteca de treinos para focar nas necessidades específicas de força (como ladeiras) e simulação do perfil do terreno do evento.
 
 ---
 
@@ -187,6 +194,6 @@ Sempre que solicitado para "Analisar" ou "Gerar" o treino:
 
 ## 9. Calendário de Provas (Metas)
 
-- **16/08/2026:** Prova de Corrida de 10 km.
-  *   *Estratégia de Polimento (Tapering):* Na semana da prova (10/08 a 16/08), reduzir o volume total em 40-50% mantendo estímulos de intensidade curtos e pontuais. O objetivo é entrar na prova com TSB positivo (fresco e recuperado) e HRV alto para maximizar a performance.
-  *   *Pace Alvo Estimado:* 7:25/km a 7:40/km (Tempo estimado: 1h14m a 1h16m).
+- **[DATA_DO_EVENTO]:** Prova de [Tipo de Prova, ex: Corrida de 10 km].
+  *   *Estratégia de Polimento (Tapering):* Na semana da prova, reduzir o volume total de treino em 40-50% mantendo estímulos de intensidade curtos e pontuais. O objetivo é entrar na prova com TSB positivo (fresco e recuperado) e HRV alto para maximizar a performance.
+  *   *Meta de Ritmo / Pace Alvo:* [ex: 5:00 min/km].
